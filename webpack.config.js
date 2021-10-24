@@ -3,8 +3,11 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
+  entry: './src/index.js',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
+    filename: 'app.bundle.js',
   },
   module: {
     rules: [
@@ -33,6 +36,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
+      inject: false,
+      hash: true,
       template: './src/index.html',
       filename: './index.html',
     }),

@@ -1,4 +1,4 @@
-import orderObject from '../matchers.js';
+import orderObject from '../app.js';
 
 test('should person', () => {
   const heroes = [

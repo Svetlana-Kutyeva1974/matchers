@@ -20,7 +20,7 @@
   },
   "keywords": [],
   "author": "Svetlana-Kutyeva",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Svetlana-Kutyeva1974/unit/issues"
   },
@@ -30,19 +30,18 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "babel-jest": "^27.3.1",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "^8.2.3",
     "css-loader": "^6.4.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.2",
-    "html-loader": "^2.1.2",
+    "html-loader": "^3.0.0",
     "html-webpack-plugin": "^5.4.0",
     "jest": "^27.3.1",
     "live-server": "^1.2.1",
-    "mini-css-extract-plugin": "^2.4.2",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.3.1"
+    "mini-css-extract-plugin": "^2.4.3",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
   },
   "dependencies": {
     "core-js": "^3.18.3"
