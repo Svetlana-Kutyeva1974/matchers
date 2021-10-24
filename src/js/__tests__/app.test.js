@@ -12,6 +12,9 @@ test('should person', () => {
     { name: 'мечник', health: 10 },
   ];
   const result = orderObject(heroes);
-  expect(result).toBe(output);
+   expect(() => {
+    expect(result).toBe(output);
+  }).toThrow();
+  
   expect(result).toEqual(output);
 });
