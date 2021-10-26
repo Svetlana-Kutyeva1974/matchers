@@ -11,9 +11,9 @@ const output = [
   { name: 'мечник', health: 10 },
 ];
 const result = orderObject(heroes);
-test('have not all the same properties', () => {
+test('have deep equality', () => {
   expect(result).not.toBe(output);
 });
-test('person have all the same properties', () => {
+test('have not deep equality', () => {
   expect(result).toEqual(output);
 });
