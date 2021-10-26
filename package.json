@@ -1,7 +1,7 @@
 {
   "name": "unit",
   "version": "1.0.0",
-  "description": "dz unit tests",
+  "description": "dz matchers tests",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Svetlana-Kutyeva1974/unit.git"
+    "url": "git+https://github.com/Svetlana-Kutyeva1974/matchers.git"
   },
   "keywords": [],
   "author": "Svetlana-Kutyeva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Svetlana-Kutyeva1974/unit/issues"
+    "url": "https://github.com/Svetlana-Kutyeva1974/matchers/issues"
   },
-  "homepage": "https://github.com/Svetlana-Kutyeva1974/unit#readme",
+  "homepage": "https://github.com/Svetlana-Kutyeva1974/matchers#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
