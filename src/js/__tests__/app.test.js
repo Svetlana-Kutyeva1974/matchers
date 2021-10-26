@@ -11,7 +11,6 @@ const output = [
   { name: 'мечник', health: 10 },
 ];
 const result = orderObject(heroes);
-
 test('have not all the same properties', () => {
   expect(result).not.toBe(output);
 });
